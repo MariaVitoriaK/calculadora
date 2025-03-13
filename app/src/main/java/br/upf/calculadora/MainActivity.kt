@@ -169,7 +169,7 @@ fun Botao(texto: String, tratarOnClick: (String) -> Unit,  modifier: Modifier = 
         )
   }
 }
-
+//a
 fun processarEntrada(primeiroValor: String?, segundoValor: String?, operador: String): String {
     if (primeiroValor.isNullOrEmpty() || segundoValor.isNullOrEmpty()) {
         return "Erro"
