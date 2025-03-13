@@ -157,9 +157,9 @@ fun Botao(texto: String, tratarOnClick: (String) -> Unit,  modifier: Modifier = 
       },
       modifier = Modifier
            //.size(85.dp)
-            .padding(5.dp)
-             // colors = ButtonDefaults.buttonColors(
-              //containerColor = Color(0xFFD3D3D3),
+            .padding(5.dp),
+            // colors = ButtonDefaults.buttonColors(
+                 //containerColor = Color(0xFFD3D3D3),
          ) {
       Text(
            text = texto,
